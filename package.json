@@ -1,0 +1,12 @@
+{
+  "name": "scraper-wikis",
+  "version": "1.0.0",
+  "description": "Learn fast",
+  "main": "deploy/index.html",
+  "dependencies": {
+    "request": "2.79.0",
+    "cheerio": ">=0",
+    "system-sleep": ">=0",
+    "cron": ">=0"
+  }
+}
