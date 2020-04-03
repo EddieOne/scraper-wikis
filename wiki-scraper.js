@@ -17,6 +17,7 @@ var options = {
   }
 }
 
+var h = fs.readFileSync('source.html', 'utf8');
 const $ = cheerio.load(h);
 $('a').each(function() {
   var link = $(this).attr('href');
